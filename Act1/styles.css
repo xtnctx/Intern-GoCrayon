@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&amp;display=swap');
+
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.head-containter { 
+    position: relative;
+    max-width: 1920;
+    max-height: 1083px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:  space-between;
+    font-size: 0.8em;
+    
+}
+
+.left-head {
+    position: relative;
+    padding: 28px 0 20px 50px;
+    
+}
+
+.right-head h2 {
+    position: relative;
+    padding: 20px 50px 20px 0;
+}
+
+
+#navbar {
+    background: #080808;
+    padding: 20px;
+}
+
+#navbar ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.title {
+    background-color: #fe6f61;
+    text-align: center;
+    padding: 50px;
+}
+
+.title h1 {
+    color: white;
+}
+
+
+.content {
+    margin: 60px;
+    text-align: justify;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column h3 {
+    font-size: 18px;
+    margin-bottom: 29px;
+    font-weight: 400;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.pre-footer {
+    text-align: center;
+}
+.pre-footer-items {
+    background: url(cta-bg.jpg);
+    padding: 40px;
+    background-size: cover;
+    
+}
